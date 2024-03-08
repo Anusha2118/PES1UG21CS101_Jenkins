@@ -4,7 +4,6 @@ pipeline{
         stage('build'){
             steps {
                 build 'PES1UG21CS101-1'
-                sh 'non_existing_command'
                 sh 'g++ main.cpp -o output'
             }
 
